@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+header {
+  background-color: #f5f5f5;
+  padding: 15px 60px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar img {
+  height: 45px;
+  cursor: pointer;
+}
+.hi {
+  display: flex;
+  gap: 40px;
+}
+
+.hi p {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.hi p:hover {
+  color: #2e8b57;
+}
+.navbar button {
+  padding: 10px 20px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.navbar button:hover {
+  background-color: #246b45;
+}
