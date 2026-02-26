@@ -44,3 +44,81 @@ header {
 .navbar button:hover {
   background-color: #246b45;
 }
+
+.hero {
+  height: 100vh;
+  background-image: url('./assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  color: white;
+}
+
+.badge {
+  display: inline-block;
+  background-color:#ffffff;
+  color: #4ade80;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #22c55e;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #d1d5db;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.primary-btn {
+  padding: 14px 28px;
+  background-color: #22c55e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secondary-btn {
+  padding: 14px 28px;
+  background-color: transparent;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
