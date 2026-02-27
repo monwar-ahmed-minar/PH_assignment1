@@ -261,3 +261,55 @@ header {
   font-size: larger;
   margin-bottom: 36px;
 }
+
+footer {
+  background-color: #06263a;
+  color: white;
+  padding: 40px 80px;
+  font-family: Arial, sans-serif;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img1 img {
+  width: 120px;
+}
+
+.social {
+  text-align: right;
+}
+
+.social h5 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #dcdcdc;
+}
+
+.social a {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}
+
+footer hr {
+  margin: 30px 0 15px 0;
+  border: 0;
+  height: 1px;
+  background-color: #2c4a5f;
+}
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  color: #cfcfcf;
+  margin: 0;
+}
